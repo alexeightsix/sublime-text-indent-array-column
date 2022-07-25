@@ -1,17 +1,16 @@
 # Array Column Indenter
 
-Sublime Text 4 Plugin that adds a new menu item to the context menu called "Indent Array". 
+Sublime Text 4 Plugin that adds a new menu item to the context menu called "Indent Array". Work in progress as there's some minor bugs but generally works as expected.
 
-## Example:
-    "key_1" => "value",
-    "another_key_2" => "value",
-    "another_key_3_longer" => "value"
-    
-**Transforms to:**
-
-    "key_1" 				=> "value",
-    "another_key_2" 		=> "value",
-    "another_key_3_longer"  => "value"
+## Original:
+    "key" => "value"
+    "second_key_2" => "value"
+    "another_key_3" => "value"
+   
+## Transofrmed:
+    "key"           => "value"
+    "second_key_2"  => "value"
+    "another_key_3" => "value"
 
 ## Tests
 
