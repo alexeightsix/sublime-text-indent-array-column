@@ -7,13 +7,12 @@ Sublime Text 4 Plugin that adds a new menu item to the context menu called "Inde
     "second_key_2" => "value"
     "another_key_3" => "value"
    
-## Transofrmed:
+## Transformed:
     "key"           => "value"
     "second_key_2"  => "value"
     "another_key_3" => "value"
 
 ## Tests
-
     pytest3 test_cases.py
 
 ## Install
